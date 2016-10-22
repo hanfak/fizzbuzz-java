@@ -2,13 +2,17 @@
 public class Fizzbuzz {
 
 	public String evaluate(int number) {
-		if(number % 3 == 0) {
+		if( divisibleBy(number, 3) ) {
 			return "Fizz";
 		}
-		if(number % 5 == 0) {
+		if( divisibleBy(number, 5) ) {
 			return "Buzz";
 		}
 		return Integer.toString(number);
+	}
+	
+	private Boolean divisibleBy(int number, int divisor) {
+		return number % divisor == 0;
 	}
 
 }
