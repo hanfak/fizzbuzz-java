@@ -2,7 +2,9 @@
 public class Fizzbuzz {
 
 	public String evaluate(int number) {
-		// TODO Auto-generated method stub
+		if(number == 3) {
+			return "Fizz";
+		}
 		return Integer.toString(number);
 	}
 

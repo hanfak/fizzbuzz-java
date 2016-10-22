@@ -20,4 +20,10 @@ public class FizzbuzzTest {
 	public void returnsAnyNumber() {
 		assertEquals("2", fizzbuzz.evaluate(2));
 	}
+	
+	@Test
+	public void threeReturnsFizz() {
+		assertEquals("Fizz", fizzbuzz.evaluate(3));
+	}
+	
 }
