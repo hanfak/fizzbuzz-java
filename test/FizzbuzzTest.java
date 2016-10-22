@@ -1,3 +1,5 @@
+import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,5 +14,10 @@ public class FizzbuzzTest {
 	@Test
 	public void canEvaluate() {
 		fizzbuzz.evaluate(1);
+	}
+	
+	@Test
+	public void returnsNumber() {
+		assertEquals("1", fizzbuzz.evaluate(1));
 	}
 }
