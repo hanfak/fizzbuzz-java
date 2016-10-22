@@ -26,4 +26,9 @@ public class FizzbuzzTest {
 		assertEquals("Fizz", fizzbuzz.evaluate(3));
 	}
 	
+	@Test
+	public void factorOfThreeReturnsFizz() {
+		assertEquals("Fizz", fizzbuzz.evaluate(12));
+	}
+	
 }
