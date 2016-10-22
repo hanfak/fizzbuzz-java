@@ -2,7 +2,7 @@ import org.junit.Test;
 
 public class FizzbuzzTest {
 	@Test
-	public void nothing() {
-		
+	public void canCreateClass() {
+		new Fizzbuzz();
 	}
 }
