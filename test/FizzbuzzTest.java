@@ -10,10 +10,6 @@ public class FizzbuzzTest {
 	}
 	
 	@Test
-	public void canCreateClass() {
-	}
-	
-	@Test
 	public void canEvaluate() {
 		fizzbuzz.evaluate(1);
 	}
