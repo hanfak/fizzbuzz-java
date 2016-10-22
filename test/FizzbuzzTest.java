@@ -31,4 +31,9 @@ public class FizzbuzzTest {
 		assertEquals("Fizz", fizzbuzz.evaluate(12));
 	}
 	
+	@Test
+	public void fiveReturnsBuzz() {
+		assertEquals("Buzz", fizzbuzz.evaluate(5));
+	}
+	
 }
