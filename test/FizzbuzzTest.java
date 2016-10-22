@@ -10,12 +10,7 @@ public class FizzbuzzTest {
 	public void setUp() throws Exception {
 		fizzbuzz = 	new Fizzbuzz();
 	}
-	
-	@Test
-	public void canEvaluate() {
-		fizzbuzz.evaluate(1);
-	}
-	
+
 	@Test
 	public void returnsNumber() {
 		assertEquals("1", fizzbuzz.evaluate(1));
