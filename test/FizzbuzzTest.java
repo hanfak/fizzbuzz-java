@@ -36,4 +36,9 @@ public class FizzbuzzTest {
 		assertEquals("Buzz", fizzbuzz.evaluate(5));
 	}
 	
+	@Test
+	public void factorOfFiveReturnsBuzz() {
+		assertEquals("Buzz", fizzbuzz.evaluate(20));
+	}
+	
 }
