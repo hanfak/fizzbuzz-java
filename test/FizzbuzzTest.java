@@ -15,4 +15,9 @@ public class FizzbuzzTest {
 	public void returnsNumber() {
 		assertEquals("1", fizzbuzz.evaluate(1));
 	}
+	
+	@Test
+	public void returnsAnyNumber() {
+		assertEquals("2", fizzbuzz.evaluate(2));
+	}
 }
