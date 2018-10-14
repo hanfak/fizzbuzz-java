@@ -1,14 +1,16 @@
-import static org.junit.Assert.*;
-
+import domain.fizzbuzzevaluators.FizzbuzzEvaluatorVersion0;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FizzbuzzTest {
-	private Fizzbuzz fizzbuzz;
+import static org.junit.Assert.assertEquals;
+
+public class FizzbuzzEvaluatorVersion0Test {
+
+	private FizzbuzzEvaluatorVersion0 fizzbuzz;
 
 	@Before
-	public void setUp() throws Exception {
-		fizzbuzz = 	new Fizzbuzz();
+	public void setUp() {
+		fizzbuzz = 	new FizzbuzzEvaluatorVersion0();
 	}
 
 	@Test

@@ -1,5 +1,10 @@
-public class Fizzbuzz {
+package domain.fizzbuzzevaluators;
 
+import infrastructure.printers.Evaluator;
+
+public class FizzbuzzEvaluatorVersion0 implements Evaluator {
+
+	@Override
 	public String evaluate(int number) {
 		if( divisibleBy(number, 15) ) {
 			return "FizzBuzz";
